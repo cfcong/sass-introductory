@@ -1,0 +1,14 @@
+body {
+  padding-top: 70px; }
+  body h1 {
+    color: black;
+    font-weight: bold; }
+  body .navbar-header {
+    color: red; }
+  body .property-listing .thumbnail img {
+    width: 300px;
+    height: 200px; }
+  body .property-listing .row-header {
+    color: red; }
+    body .property-listing .row-header .col-xs-4 {
+      text-color: blue; }

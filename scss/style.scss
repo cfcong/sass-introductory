@@ -1,0 +1,28 @@
+body{
+	padding-top: 70px;
+	
+	h1{
+		color: black;
+		font-weight: bold;
+	}
+
+	.navbar-header{
+		color:red;
+	}
+	.property-listing {
+		.thumbnail {
+			img {
+				width: 300px; 
+				height: 200px;
+			}
+		}
+		.row-header{
+			color:red;
+			.col-xs-4{
+				text-color:blue;
+			}
+		}
+		
+	}	
+
+}
