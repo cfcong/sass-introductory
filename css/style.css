@@ -12,3 +12,11 @@ body {
     color: red; }
     body .property-listing .row-header .col-xs-4 {
       text-color: blue; }
+  body .profile-listing {
+    color: red; }
+    body .profile-listing .carousel {
+      width: 100%; }
+      body .profile-listing .carousel .panes {
+        width: 500%; }
+        body .profile-listing .carousel .panes > li {
+          width: 33.33%; }

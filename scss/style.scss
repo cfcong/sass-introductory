@@ -22,7 +22,18 @@ body{
 				text-color:blue;
 			}
 		}
-		
+	}
+	.profile-listing{
+		color: red;
+		.carousel{
+			width: 100%;
+			
+			.panes{
+				width: 500%;
+				>li{
+					width:33.33%
+				}
+			}
+		}
 	}	
-
-}
+}	
