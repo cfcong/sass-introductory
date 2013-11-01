@@ -12,11 +12,26 @@ body {
     color: red; }
     body .property-listing .row-header .col-xs-4 {
       text-color: blue; }
-  body .profile-listing {
-    color: red; }
-    body .profile-listing .carousel {
-      width: 100%; }
-      body .profile-listing .carousel .panes {
-        width: 500%; }
-        body .profile-listing .carousel .panes > li {
-          width: 33.33%; }
+  body .clearfix {
+    display: inline-block; }
+    body .clearfix:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0; }
+  body .thumnailimage {
+    display: block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    float: left; }
+    body .thumnailimage > img {
+      height: 180px;
+      widows: 100%;
+      display: block;
+      float: left; }

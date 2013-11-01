@@ -9,9 +9,9 @@ body{
 	.navbar-header{
 		color:red;
 	}
-	.property-listing {
-		.thumbnail {
-			img {
+	.property-listing{
+		.thumbnail{
+			img{
 				width: 300px; 
 				height: 200px;
 			}
@@ -23,17 +23,40 @@ body{
 			}
 		}
 	}
-	.profile-listing{
-		color: red;
-		.carousel{
-			width: 100%;
-			
-			.panes{
-				width: 500%;
-				>li{
-					width:33.33%
-				}
-			}
+
+	.clearfix 
+	{
+		display: inline-block;
+
+		&:after 
+		{
+			content: ".";
+			display: block;
+			clear: both;
+			visibility: hidden;
+			line-height: 0;
+			height: 0;
+		}
+	}
+
+	.photorow{
+
+	}
+	.thumnailimage{
+		display: block;
+		height: auto;
+		padding: 4px;
+		margin-bottom: 20px;
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 4px;
+		float:left;
+
+		>img{
+			height:180px;
+			widows: 100%;
+			display: block;
+			float: left;
 		}
 	}	
 }	
